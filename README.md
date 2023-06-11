@@ -1,6 +1,6 @@
 # OBS 视频分块重映射插件
 
-《一种基于 UV 映射贴图的全高清 OBS 直播解决方案》
+《一种基于 UV 映射贴图的高清 OBS 直播解决方案》
 
 将源分成 16x16 的小块，然后使用指定的种子产生随机序列，对画面进行打乱。
 
@@ -151,7 +151,6 @@ run('ganlvtech', 1920, 1080, 32, 32, [24, 36, 1552, 873]);
 
    ```bash
    cd ../../
-   bindgen --with-derive-default obs-module.h -o bindings.rs
    cp obs-studio/libobs/bindings.rs bindings/src/bindings.rs
    ```
 
