@@ -50,7 +50,7 @@ OBS 插件和 WebGL 均使用显卡进行渲染，仅需一个 Vertex Shader，�
 
 ### 观看
 
-复制 [webgl/gl.js](webgl%2Fgl.js) 的内容，在 F12 开发者工具中执行。
+复制 [webgl/gl.js](webgl/gl.js) 的内容，在 F12 开发者工具中执行。
 
 你可以使用 `DevTools > Sources > Snippets`，创建一个新的脚本，保存下来，右键 `Run` 即可执行。
 
@@ -89,6 +89,8 @@ run('ganlvtech', 1920, 1080, 32, 32, [24, 36, 1552, 873]);
    ```
 
    注意，你需要将 `~/.cargo/bin` 添加到 PATH 环境变量。
+
+   bindgen-cli 文档： https://rust-lang.github.io/rust-bindgen/command-line-usage.html
 
 5. 安装 LLVM
 
