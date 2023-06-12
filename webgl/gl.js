@@ -269,5 +269,5 @@ void main(void) {
     requestAnimationFrame(update);
 }
 
-// run('ganlvtech', 1920, 1080, 16, 16);
-run('ganlvtech', 1920, 1080, 32, 32, [24, 36, 1552, 873]);
+run('ganlvtech', 1920, 1080, 16, 16);
+// run('ganlvtech', 1920, 1080, 32, 32, [24, 36, 1552, 873]);
