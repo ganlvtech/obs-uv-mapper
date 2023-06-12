@@ -18,7 +18,7 @@ OBS 插件和 WebGL 均使用显卡进行渲染，仅需一个 Vertex Shader，�
 
 ### 推流
 
-1. 将 obs_uv_mapper.dll 复制到 `C:\Program Files\obs-studio\bin\64bit`，然后重启 OBS 即可。
+1. 将 obs_uv_mapper.dll 复制到 `C:\Program Files\obs-studio\obs-plugins\64bit`，然后重启 OBS 即可。
 
 2. 在 OBS 中选择一个视频源或者场景，添加一个 Video UV Mapper 的滤镜，然后设置一个“密码”作为种子。
 
